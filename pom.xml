@@ -26,6 +26,8 @@
         <module>actuator</module>
         <module>document</module>
         <module>audio-experience</module>
+        <module>test</module>
+        <module>test-project</module>
     </modules>
 
     <properties>
@@ -143,6 +145,11 @@
             <dependency>
                 <groupId>tw.waterballsa.utopia</groupId>
                 <artifactId>guess-num-1A2B</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>tw.waterballsa.utopia</groupId>
+                <artifactId>test-project</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
